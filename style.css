@@ -3,6 +3,11 @@ body {
 }
 
 nav {
+  width: 200px;
+  height: 300px;
+  border: 2px solid blue;
+}
+nav li {
   width: 25px;
   height: 25px;
   border: 2px solid red;
