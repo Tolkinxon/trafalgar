@@ -43,6 +43,10 @@ body{
     padding-right: 10px;
 }
 
+.healthcare {
+    margin-bottom: 100px;
+}
+
 .header-container{
     display: flex;
     justify-content: space-between;
@@ -146,6 +150,14 @@ body{
     justify-content: center;
 }
 
+.headin-and-text-wrapper {
+    width: 952px;
+    height: 117px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .services-heading {
     font-family: 'Mulish', sans-serif;
     font-size: 36px;
@@ -160,6 +172,46 @@ body{
 .line {
     display: inline-block;
     border-top: 2px solid #000;
-    width: 52px;
-    height: 1px;
+    width: 56px;
+    height: 2px;
 }
+
+.services-text {
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-item{
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    list-style: none;
+}
+
+.services-item-heding {
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.services-item-text {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
