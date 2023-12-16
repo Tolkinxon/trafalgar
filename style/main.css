@@ -192,7 +192,7 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-   
+    margin-bottom: 70px;
 }
 
 .services-item{
@@ -200,9 +200,10 @@ body{
     height: 354px;
     border-radius: 20px;
     list-style: none;
-    box-shadow: 0px 0px 20px gray;
     padding: 40px;
     margin: 10px;
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+
 }
 
 .services-item-heding {
@@ -222,6 +223,25 @@ body{
     letter-spacing: 0em;
     text-align: left;
     color:#7D7987;
+}
+
+.services-link {
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    text-decoration: none;
+
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #458FF6;
+
 
 }
+
+
 
