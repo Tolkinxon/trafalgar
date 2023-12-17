@@ -143,6 +143,10 @@ body{
 
 /* OUR SERVICES */
 
+.services {
+    margin-bottom: 200px;
+}
+
 .services-container {
     display: flex;
     flex-direction: column;
@@ -150,7 +154,7 @@ body{
     justify-content: center;
 }
 
-.headin-and-text-wrapper {
+.heading-and-text-wrapper {
     width: 952px;
     height: 117px;
     display: flex;
@@ -203,7 +207,7 @@ body{
     padding: 40px;
     margin: 10px;
     box-shadow: 10px 40px 50px 0px #E5E9F666;
-
+    
 }
 
 .services-item-heding {
@@ -225,13 +229,13 @@ body{
     color:#7D7987;
 }
 
-.services-link {
+.services-link, .leading-link {
     width: 200px;
     height: 60px;
     border-radius: 55px;
     border: 1.4px solid #458FF6;
     text-decoration: none;
-
+    
     font-family: 'Mulish', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -239,8 +243,79 @@ body{
     letter-spacing: 0em;
     text-align: center;
     color: #458FF6;
+}
 
 
+/* Leading side */
+
+.leading {
+    margin-bottom: 300px;
+}
+
+.leading-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1273px;
+    height: 477px;
+}
+
+.leading-img {
+    width: 650px;
+    height: 477px;
+}
+
+.leading-right-wrapper {
+    width: 486px;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+
+.leading-heding {
+    font-family: 'Mulish', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.leading-text {
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#7D7987;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    
+}
+
+
+
+/* Download side */
+.download-container {
+    flex-direction: row-reverse;
+}
+
+.download-right-wrapper{
+    width: 420px;
+    height: 375px;
+    margin-left: 150px;
+}
+.download-img {
+    width: 665px;
+    height: 434px;
+}
+
+.download-arrow {
+    width: 15.43px;
+    height: 982px;
 }
 
 
