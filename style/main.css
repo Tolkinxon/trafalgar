@@ -320,6 +320,11 @@ body{
 
 
 /* Customer side */
+.customer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .customer-top {
     width: 1120px;
