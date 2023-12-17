@@ -356,9 +356,40 @@ body{
     justify-content: space-between;
 }
 
+.customer-img {
+    width: 133px;
+    height: 133px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.customer-wrapper-heading {
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+}
+
+.customer-wrapper-text {
+    color: rgba(255, 255, 255, 0.85);
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; 
+}
+
 .customer-wrapper-right-side-text {
     width: 420px;
     height: 120px;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: 'Mulish', sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
 }
 
 
