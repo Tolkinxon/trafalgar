@@ -540,6 +540,11 @@ body{
     background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
 }
 
+.footer-trafalgar-logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
 .footer-trafalgar-circle-and-letter-logo-wrapper{
     display: inline-block;
     position: relative;
