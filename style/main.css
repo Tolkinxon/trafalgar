@@ -529,9 +529,10 @@ body{
     color: white
 }
 
+
 /* Footer */
 .footer-container {
-    width: 1600px;
+    max-width: 1600px;
     height: 432px;
     display: flex;
     justify-content: space-between;
@@ -539,6 +540,21 @@ body{
     background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
 }
 
+.footer-trafalgar-circle-and-letter-logo-wrapper{
+    display: inline-block;
+    position: relative;
+}
+
+.footer-trafalgar-circle-logo {
+    position: absolute;
+
+}
+
+.footer-trafalgar-letter-logo {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
 
 
 
