@@ -536,15 +536,23 @@ body{
     height: 432px;
     display: flex;
     justify-content: space-between;
-    padding: 110px 200px 110px 190px;
+    padding: 120px 100px 80px 100px;
     background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.footer-trafalgar {
+    width: 391px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
 
 .footer-trafalgar-logo-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-left: 10px;
+    justify-content: left;
+    margin-bottom: 17px;
+
 }
 
 .footer-trafalgar-circle-and-letter-logo-wrapper{
@@ -566,8 +574,52 @@ body{
 }
 
 .footer-trafalgar-word-logo {
-    margin-left: 9px;
+    margin-left: 12px;
     margin-top: 6px;
+}
+
+.footer-trafalgar-paragraph {
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 155.556% */
+    margin: 0;
+    margin-bottom: 31px;
+}
+
+.footer-trafalgar-paragraph-company {
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 175% */
+    margin: 0;
+}
+
+.footer-company-heading {
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43px;/* 300% */   
+    margin: 0; 
+    margin-bottom: 22px;
+    padding: 0;
+
+}
+
+.footer-company-paragraph {
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px; /* 211.111% */
+    margin: 0;
 }
 
 
