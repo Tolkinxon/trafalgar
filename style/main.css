@@ -543,9 +543,13 @@ body{
 .footer-trafalgar-logo-wrapper {
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-left: 10px;
 }
 
 .footer-trafalgar-circle-and-letter-logo-wrapper{
+    width: 42px;
+    height: 41px;
     display: inline-block;
     position: relative;
 }
@@ -559,6 +563,11 @@ body{
     position: absolute;
     top: 12px;
     left: 12px;
+}
+
+.footer-trafalgar-word-logo {
+    margin-left: 9px;
+    margin-top: 6px;
 }
 
 
