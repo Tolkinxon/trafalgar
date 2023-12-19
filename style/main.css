@@ -43,7 +43,7 @@ body{
 
 
 .container {
-    max-width: 1300px;
+    max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 10px;
@@ -86,6 +86,11 @@ body{
 
 
 /* HEALTHCARE SECTION */
+.healthcare {
+    background-image: url('/images/background_dots.svg');
+    background-position: calc(50% - 777px) 40px;
+    background-repeat: no-repeat;
+}
 
 .healthcare-conatainer {
     display: flex;
