@@ -28,6 +28,13 @@ body{
     font-display: swap; 
     font-family: 'Mulish';
     font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/mulish-v13-latin-600.woff2') format('woff2'); 
+  }
+@font-face {
+    font-display: swap; 
+    font-family: 'Mulish';
+    font-style: normal;
     font-weight: 700;
     src: url('../fonts/mulish-v13-latin-700.woff2') format('woff2'); 
 }
@@ -299,6 +306,9 @@ body{
 
 
 /* Download side */
+.download {
+    margin-bottom: 200px;
+}
 .download-container {
     flex-direction: row-reverse;
 }
@@ -320,6 +330,9 @@ body{
 
 
 /* Customer side */
+.customer {
+    margin-bottom: 230px;
+}
 .customer-container {
     display: flex;
     flex-direction: column;
@@ -334,6 +347,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 68px 10px 85px 10px;
+    margin-bottom: 46px;
 }
 
 .customer-heading {
@@ -344,10 +359,13 @@ body{
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
+    margin: 0px;
+    margin-bottom: 25px;
 }
 
 .customer-line {
     border-color: white;
+    margin-bottom: 60px;
 }
 
 .customer-wrapper {
@@ -356,11 +374,25 @@ body{
     justify-content: space-between;
 }
 
+.wrapper-ing-and-heading-text {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .customer-img {
+    display: inline-block;
     width: 133px;
     height: 133px;
     border-radius: 50%;
     border: 4px solid white;
+    margin: 0;
+}
+
+.customer-wrapper-heading-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .customer-wrapper-heading {
@@ -369,7 +401,8 @@ body{
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    line-height: 48px; 
+    line-height: 10px;
+    margin: 0; 
 }
 
 .customer-wrapper-text {
@@ -378,7 +411,7 @@ body{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 48px; 
+    line-height: 10px;
 }
 
 .customer-wrapper-right-side-text {
@@ -391,6 +424,122 @@ body{
     font-weight: 400;
     line-height: 30px; 
 }
+
+.customer-bottom {
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Checkout */
+
+.checkout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkout-heading {
+    color: #000;
+    font-family: 'Mulish', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; 
+    margin-bottom: 26px;
+}
+
+.checkout-line {
+    margin-bottom: 72px;
+}
+
+.checkout-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 72px;
+}
+
+.checkout-item {
+    width: 350px;
+    height: 512px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    list-style: none;
+    overflow: hidden;
+    margin: 10px;
+
+
+}
+
+.checkout-item-img {
+    object-fit: contain;
+}
+
+.checkout-item-wrapper {
+    padding: 20px 50px 35px 33px;
+}
+
+.checkout-item-heading {
+    color: #000;
+    font-family: 'Mulish', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 152.381% */
+}
+
+.checkout-item-paragraph {
+    color: #7D7987;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 175% */
+}
+
+.checkout-item-read-more {
+    color: #4089ED;
+    font-family: 'Mulish', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 164.706% */
+}
+
+.checkout-link {
+    color: #458FF6;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167%; 
+    padding: 12px 66px 14px 66px;  
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    text-decoration: none;
+    margin-bottom: 200px;
+}
+
+.checkout-link:hover {
+    background-color: #458FF6;
+    color: white
+}
+
+/* Footer */
+.footer-container {
+    width: 1600px;
+    height: 432px;
+    display: flex;
+    justify-content: space-between;
+    padding: 110px 200px 110px 190px;
+    background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+
 
 
 
