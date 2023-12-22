@@ -204,7 +204,7 @@ body{
 }
 
 .services-list {
-    width: 1080px;
+    width: 1090px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -212,8 +212,12 @@ body{
     margin: 0;
     padding: 0;
     margin-bottom: 70px;
-    margin-right: -20;
-    /* border: 2px solid red; */
+    /* margin-left: -10px; */
+    margin-right: -40px;
+    padding-right: -40px;
+
+    box-shadow: 0px 0px 0px 2px black;
+
 }
 
 .services-item{
@@ -226,7 +230,11 @@ body{
     /* box-shadow: 10px 40px 50px 0px #E5E9F666; */
     box-shadow: 0px 0px 0px 2px black;
     
-}
+}   
+
+/* .services-item:nth-child(3n + 3) {
+    margin-right: 0px;
+} */
 
 .services-item-heding {
     font-family: 'Mulish', sans-serif;
