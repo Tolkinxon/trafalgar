@@ -501,6 +501,9 @@ body{
     background-image: url('/images/background-for-checkout.svg'),  url('/images/background2-for-checkout.svg');
     background-repeat: no-repeat;
     background-position: calc(50% + 666px) calc(50% - 100px), calc(50% - 507px) calc(50% - 305px);
+
+    margin-bottom: 100px;
+
 }
 
 .checkout-container {
@@ -591,7 +594,6 @@ body{
     border-radius: 55px;
     border: 1.4px solid #458FF6;
     text-decoration: none;
-    margin-bottom: 200px;
 }
 
 .checkout-link:hover {
@@ -601,14 +603,33 @@ body{
 
 
 /* Footer */
+
+footer {
+    padding-top: 100px;
+
+    background-image: url('/images/background-for-footer.svg');
+    background-repeat: no-repeat;
+    background-position: calc(50% + 660px) calc(50% - 175px);
+}
+
+
 .footer-container {
     max-width: 1600px;
     height: 432px;
-    display: flex;
-    justify-content: space-between;
-    padding: 120px 100px 80px 100px;
     background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
 }
+
+.footer-container-wrapper{
+    padding: 160px 100px 80px 140px;
+    display: flex;
+    justify-content: space-between;
+
+    background-image: url('/images/background2-for-footer.svg');
+    background-repeat: no-repeat;
+    background-position: calc(1% - 25px) calc(99% - 30px)
+}
+
+
 
 .footer-trafalgar {
     width: 391px;
