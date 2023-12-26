@@ -387,6 +387,7 @@ body{
     height: 425px;
     background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
     border-radius: 24px;
+    margin-bottom: 46px;
     
 }
 
@@ -395,11 +396,10 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 68px 10px 85px 10px;
-    margin-bottom: 46px;
 
-    background-image: url('/images/background2-for-services.svg');
+    background-image: url('/images/background-for-customer.svg');
     background-repeat: no-repeat;
-    background-position: calc(50% - 100px);
+    background-position: calc(50% + 530px) calc(50% - 180px);
 }
 
 .customer-heading {
