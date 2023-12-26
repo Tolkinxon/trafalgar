@@ -30,7 +30,7 @@ body{
     font-style: normal;
     font-weight: 600;
     src: url('../fonts/mulish-v13-latin-600.woff2') format('woff2'); 
-  }
+}
 @font-face {
     font-display: swap; 
     font-family: 'Mulish';
@@ -163,7 +163,7 @@ body{
     background-image: url('/images/background-for-services.png'),  url('/images/background2-for-services.svg');
     background-repeat: no-repeat;
     background-position: calc(50% - 570px) calc(50% - 62px), calc(50% + 487px) calc(50% + 10px);
-
+    
 }
 
 .services-container {
@@ -171,7 +171,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
- 
+    
 }
 
 .heading-and-text-wrapper {
@@ -224,8 +224,8 @@ body{
     margin-bottom: 70px;
     margin-left: -10px;
     margin-right: -10px;
-
-
+    
+    
 }
 
 .services-item{
@@ -299,6 +299,11 @@ body{
     height: 477px;
 }
 
+.leading-container-for-padding {
+    padding-right: 100px;
+    box-sizing: content-box; 
+}
+
 .leading-img {
     width: 650px;
     height: 477px;
@@ -351,7 +356,7 @@ body{
 .download-wrapper {
     display: flex;
     flex-direction: row-reverse;
-    margin-right: -140px;
+    margin-right: -40px;
 }
 
 .download-right-wrapper{
@@ -375,6 +380,9 @@ body{
 /* Customer side */
 .customer {
     margin-bottom: 230px;
+    background-image: url('/images/background2-for-customer.svg');
+    background-repeat: no-repeat;
+    background-position: calc(50% - 540px) calc(50% + 90px);
 }
 .customer-container {
     display: flex;
@@ -396,10 +404,10 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 68px 10px 85px 10px;
-
+    
     background-image: url('/images/background-for-customer.svg');
     background-repeat: no-repeat;
-    background-position: calc(50% + 530px) calc(50% - 180px);
+    background-position: calc(50% + 539px) calc(50% - 177px);
 }
 
 .customer-heading {
@@ -485,11 +493,22 @@ body{
 
 /* Checkout */
 
+.checkout {
+    width: 1700px;
+    margin-right: auto;
+    margin-left: auto;
+
+    background-image: url('/images/background-for-checkout.svg'),  url('/images/background2-for-checkout.svg');
+    background-repeat: no-repeat;
+    background-position: calc(50% + 666px) calc(50% - 100px), calc(50% - 507px) calc(50% - 305px);
+}
+
 .checkout-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 .checkout-heading {
@@ -522,8 +541,8 @@ body{
     list-style: none;
     overflow: hidden;
     margin: 10px;
-
-
+    
+    
 }
 
 .checkout-item-img {
@@ -603,7 +622,7 @@ body{
     align-items: center;
     justify-content: left;
     margin-bottom: 17px;
-
+    
 }
 
 .footer-trafalgar-circle-and-letter-logo-wrapper{
@@ -615,7 +634,7 @@ body{
 
 .footer-trafalgar-circle-logo {
     position: absolute;
-
+    
 }
 
 .footer-trafalgar-letter-logo {
@@ -660,7 +679,7 @@ body{
     margin: 0; 
     margin-bottom: 22px;
     padding: 0;
-
+    
 }
 
 .footer-company-paragraph {
