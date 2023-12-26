@@ -156,7 +156,7 @@ body{
 /* OUR SERVICES */
 
 .services {
-    width: 1800px;
+    max-width: 1800px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 200px;
@@ -286,7 +286,10 @@ body{
 /* Leading side */
 
 .leading {
-    margin-bottom: 265px;
+    padding-bottom: 265px;
+    background-image: url('/images/background2-for-services.svg');
+    background-repeat: no-repeat;
+    background-position: calc(50% + 750px) calc(50% + 90px) ;
 }
 
 .leading-container {
@@ -389,6 +392,10 @@ body{
     align-items: center;
     padding: 68px 10px 85px 10px;
     margin-bottom: 46px;
+
+    background-image: url('/images/background2-for-services.svg');
+    background-repeat: no-repeat;
+    background-position: calc(50% - 100px);
 }
 
 .customer-heading {
