@@ -62,32 +62,46 @@ body{
     
 }
 
+.header-logo {
+    width: 168px;
+    height: 41px;
+    cursor: pointer;
+}
+
 .header-list {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: space-between;
     
 }
 
 .header-item {
-    margin-right: 30px;
     font-family: 'Mulish', sans-serif;
     font-weight: 400;
     color: #1F1534;
     font-size: 18px;
     line-height: 23px;
     letter-spacing: 0em;
+    border: 2px solid white;
 }
 
-.header-active-item {
+/* .header-active-item {
     font-weight: 700;
+} */
+
+.header-item:hover {
+    font-weight: 700;
+    cursor: pointer;
 }
 
 
 /* HEALTHCARE SECTION */
 .healthcare {
-    background-image: url('/images/background_dots.svg');
+    background-image: url('../images/background_dots.svg');
     background-position: calc(50% - 777px) 40px;
     background-repeat: no-repeat;
 }
@@ -156,13 +170,10 @@ body{
 /* OUR SERVICES */
 
 .services {
-    max-width: 1800px;
-    margin-right: auto;
-    margin-left: auto;
     margin-bottom: 200px;
-    background-image: url('/images/background-for-services.png'),  url('/images/background2-for-services.svg');
+    background-image: url('../images/background-for-services.png'),  url('../images/background2-for-services.svg');
     background-repeat: no-repeat;
-    background-position: calc(50% - 570px) calc(50% - 62px), calc(50% + 487px) calc(50% + 10px);
+    background-position: calc(50% - 570px) calc(50% - 62px), calc(50% + 535px) calc(50% + 10px);
     
 }
 
@@ -212,7 +223,9 @@ body{
 }
 
 .services-list-wrapper {
-    width: 1109px;
+    width: 1120px;
+    display: flex;
+    margin-right: -50px;
 }
 
 .services-list {
@@ -222,10 +235,8 @@ body{
     margin: 0;
     padding: 0;
     margin-bottom: 70px;
-    margin-left: -10px;
-    margin-right: -10px;
-    
-    
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 .services-item{
@@ -287,7 +298,7 @@ body{
 
 .leading {
     padding-bottom: 265px;
-    background-image: url('/images/background2-for-services.svg');
+    background-image: url('../images/background2-for-services.svg');
     background-repeat: no-repeat;
     background-position: calc(50% + 750px) calc(50% + 90px) ;
 }
@@ -380,7 +391,7 @@ body{
 /* Customer side */
 .customer {
     margin-bottom: 230px;
-    background-image: url('/images/background2-for-customer.svg');
+    background-image: url('../images/background2-for-customer.svg');
     background-repeat: no-repeat;
     background-position: calc(50% - 540px) calc(50% + 90px);
 }
@@ -405,7 +416,7 @@ body{
     align-items: center;
     padding: 68px 10px 85px 10px;
     
-    background-image: url('/images/background-for-customer.svg');
+    background-image: url('../images/background-for-customer.svg');
     background-repeat: no-repeat;
     background-position: calc(50% + 539px) calc(50% - 177px);
 }
@@ -498,7 +509,7 @@ body{
     margin-right: auto;
     margin-left: auto;
 
-    background-image: url('/images/background-for-checkout.svg'),  url('/images/background2-for-checkout.svg');
+    background-image: url('../images/background-for-checkout.svg'),  url('../images/background2-for-checkout.svg');
     background-repeat: no-repeat;
     background-position: calc(50% + 690px) calc(50% - 13px), calc(50% - 506px) calc(50% - 208px);
 
@@ -607,7 +618,7 @@ body{
 footer {
     padding-top: 100px;
 
-    background-image: url('/images/background-for-footer.svg');
+    background-image: url('../images/background-for-footer.svg');
     background-repeat: no-repeat;
     background-position: calc(50% + 660px) calc(50% - 175px);
 }
@@ -624,7 +635,7 @@ footer {
     display: flex;
     justify-content: space-between;
 
-    background-image: url('/images/background2-for-footer.svg');
+    background-image: url('../images/background2-for-footer.svg');
     background-repeat: no-repeat;
     background-position: calc(1% - 25px) calc(99% - 30px)
 }
