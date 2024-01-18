@@ -310,6 +310,11 @@ body{
     background-color: #458ff6; 
 }
 
+.leading-link:hover {
+    color: #fff;
+    background-color: #458ff6;  
+}
+
 
 /* Leading side */
 
