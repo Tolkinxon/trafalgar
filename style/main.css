@@ -102,7 +102,7 @@ body{
 /* HEALTHCARE SECTION */
 .healthcare {
     background-image: url('../images/background_dots.svg');
-    background-position: calc(50% - 777px) 40px;
+    background-position: calc(50% - 690px) 40px;
     background-repeat: no-repeat;
 }
 
@@ -135,7 +135,7 @@ body{
     letter-spacing: 0em;
     text-align: left;
     margin: 0;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     color: #7D7987;
 }
 
@@ -146,18 +146,18 @@ body{
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    color: #fff;
     border: 3px solid #458ff6;
-    background-color: #458ff6;
     text-decoration: none;
     padding: 20px 40px;
     border-radius: 40px;
+    background-color: #fff;
+    color: #458ff6;
     
 }
 
 .healthcare-link:hover {
-    background-color: #fff;
-    color: #458ff6;
+    color: #fff;
+    background-color: #458ff6;
 }
 
 .healthcare-img {
@@ -249,8 +249,11 @@ body{
     margin-bottom: 40px;
     box-shadow: 10px 40px 50px 0px #E5E9F666;
     background-color: white;
-    
 }   
+
+.services-item:hover {
+    box-shadow: 10px 40px 50px 0px #64656a66;
+}
 
 
 
@@ -290,7 +293,21 @@ body{
 }
 
 .services-link{
-    margin-right: 130px;
+    margin-right: 7px;
+}
+
+.services-link:hover{
+    color: #fff;
+    background-color: #458ff6;   
+}
+
+.download-link:hover svg path{
+    fill: #fff;
+}
+
+.download-link:hover {
+    color: #fff;
+    background-color: #458ff6; 
 }
 
 
@@ -505,10 +522,6 @@ body{
 /* Checkout */
 
 .checkout {
-    max-width: 1700px;
-    margin-right: auto;
-    margin-left: auto;
-
     background-image: url('../images/background-for-checkout.svg'),  url('../images/background2-for-checkout.svg');
     background-repeat: no-repeat;
     background-position: calc(50% + 690px) calc(50% - 13px), calc(50% - 506px) calc(50% - 208px);
@@ -592,6 +605,7 @@ body{
     font-style: normal;
     font-weight: 600;
     line-height: 28px; /* 164.706% */
+    cursor: pointer;
 }
 
 .checkout-link {
@@ -615,29 +629,38 @@ body{
 
 /* Footer */
 
+
 footer {
     padding-top: 100px;
-
     background-image: url('../images/background-for-footer.svg');
     background-repeat: no-repeat;
-    background-position: calc(50% + 660px) calc(50% - 175px);
+    background-position: calc(50% + 683px) calc(50% - 179px);
 }
 
 
 .footer-container {
-    max-width: 1600px;
     height: 432px;
     background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    
+}
+
+.footer-container-2 {
+    background-image: url('../images/background2-for-footer.svg');
+    background-repeat: no-repeat;
+    background-position: calc(50% - 714px) calc(50% + 147px);
 }
 
 .footer-container-wrapper{
-    padding: 120px 100px 120px 140px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 100px 0px;
+    padding-right: 10px;
+    padding-left: 10px;
     display: flex;
     justify-content: space-between;
 
-    background-image: url('../images/background2-for-footer.svg');
-    background-repeat: no-repeat;
-    background-position: calc(1% - 25px) calc(99% - 30px)
 }
 
 
